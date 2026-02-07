@@ -20,7 +20,7 @@ How accessible are different neighborhoods, and can we quantify this with an Acc
 - Accessibility barriers cluster in specific neighborhoods, suggesting spatial inequities.
 
 ## Interactive Visualizations (Tableau Public)
-- **Barrier Frequency by Type** -  [View Tableau Visual] (https://public.tableau.com/app/profile/renee.lee5770/viz/Datathon-ProjectSidewalkSeattleReneeLeeCelineChenHeidiNgo/CountofBarriersbyType?publish=yes)
+- **Barrier Frequency by Type** - (https://public.tableau.com/app/profile/renee.lee5770/viz/Datathon-ProjectSidewalkSeattleReneeLeeCelineChenHeidiNgo/CountofBarriersbyType?publish=yes)
 
 ## Data Source
-- **Project Sidewalk Seattle Accessibility Dataset** - [View Dataset] (https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YOTY6A)
+- **Project Sidewalk Seattle Accessibility Dataset** - (https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YOTY6A)
