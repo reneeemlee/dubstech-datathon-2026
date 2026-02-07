@@ -9,7 +9,9 @@ Renée Lee, Celine Chen, Heidi Ngo
 
 ## Research Questions
 Where are the most severe sidewalk accessibility problems located?
+
 What types of barriers occur most frequently across Seattle?
+
 How accessible are different neighborhoods, and can we quantify this with an Accessibility Score?
 
 ## Key Findings
