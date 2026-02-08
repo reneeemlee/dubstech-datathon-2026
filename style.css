@@ -203,7 +203,7 @@ body {
     padding: 64px 0;
 }
 
-.ptableau-sources p {
+.tableau-sources p {
     max-width: 1000px;
     font-size: 1.05rem;
     line-height: 1.7;
@@ -225,6 +225,13 @@ body {
   color: var(--highlight-strong); /* #2F6F95 */
 }
 
+/* ================= FOOTER ================= */
+.footer p {
+  max-width: 1000px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  text-align: center;
+}
 
 /* ================= ACCESSIBILITY ================= */
 
