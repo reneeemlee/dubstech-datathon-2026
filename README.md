@@ -22,6 +22,7 @@ How accessible are different neighborhoods, and can we quantify this with an Acc
 - Surface problems and obstacles are the most frequently reported accessibility barriers.
 - Many high-frequency barriers are permanent, indicating systemic infrastructure issues.
 - Accessibility barriers cluster in specific neighborhoods, suggesting spatial inequities.
+- The Industrial District exhibits the highest overall accessibility burden, highlighting it as a critical priority area for intervention.
 
 ## Interactive Visualizations (Tableau Public)
 - **Data Visualizations** - (https://public.tableau.com/app/profile/celine.chen8309/viz/DubsTech-Datathon/BarriersbyNeighborhood?publish=yes)
