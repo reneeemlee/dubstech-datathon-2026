@@ -2,7 +2,7 @@
 Datathon project providing visual analysis of sidewalk accessibility barriers in Seattle using Project Sidewalk data.
 
 # Access to Everyday Life: Seattle Sidewalk Accessibility
-This project explores accessibility barriers across Seattle using the Project Sidewalk Accessibility Dataset. Our goal is to understand where and how the built environment limits independent mobility, and to highlight opportunities for more inclusive urban design.
+This project explores accessibility barriers across Seattle using the Project Sidewalk Accessibility Dataset, along with the dataset Neighborhood Map Atlas Neighborhoods provided by Seattle GeoData. Our goal is to understand where and how the built environment limits independent mobility, and to highlight opportunities for more inclusive urban design.
 
 ## Interactive Dashboard & Portfolio
 View the full interactive analysis and visualizations here:
