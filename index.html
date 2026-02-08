@@ -1,66 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Access to Everyday Life — Seattle Accessibility</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      line-height: 1.6;
-    }
-    h1, h2 {
-      color: #2c3e50;
-    }
-    iframe {
-      width: 100%;
-      height: 800px;
-      border: none;
-      margin-bottom: 60px;
-    }
-    .section {
-      max-width: 1000px;
-      margin: auto;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Access to Everyday Life</title>
+
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+    <header class="hero">
+  <div class="container hero-inner">
+    <p class="eyebrow">Dubstech Datathon 2026</p>
 
-<div class="section">
-  <h1>Access to Everyday Life: Seattle Sidewalk Accessibility</h1>
+    <h1>
+      Access to<br />
+      <span class="highlight">Everyday Life</span>
+    </h1>
 
-  <p>
-    Cities shape how people move, navigate, and participate in everyday life.
-    Using the Project Sidewalk Seattle Accessibility Dataset, this project
-    explores where mobility breaks down, how accessibility varies across neighborhoods,
-    and which barriers most impact independent movement.
-  </p>
+    <p class="subtitle">
+      How transportation, infrastructure, and policy shape people’s ability
+      to participate in daily activities.
+    </p>
 
-  <h2>Mobility Friction Zones</h2>
-  <p>
-    This map highlights areas where accessibility barriers cluster, creating
-    zones where pedestrian movement may be slowed or unsafe.
-  </p>
+    <div class="path">
+      <span>Celine Chen</span>
+      <span>•</span>
+      <span>Renée Lee</span>
+      <span>•</span>
+      <span>Heidi Ngo</span>
+    </div>
+  </div>
+</header>
 
-  <!-- TABLEAU EMBED GOES HERE -->
-  <iframe src="PASTE_TABLEAU_EMBED_LINK_HERE"></iframe>
+    <section class="project-context">
+        <div class="container">
+            <p>
+                Access to Everyday Life explores how transportation systems, infrastructure,
+                and policy decisions impact people’s ability to participate in daily activities.
+                Using data visualization and spatial analysis, our project highlights where
+                barriers exist and where targeted improvements can expand opportunity and
+                equity across communities.
+            </p>
+        </div>
+    </section>
 
-  <h2>Accessibility Score by Neighborhood</h2>
-  <p>
-    We compute an Accessibility Score that inverts barrier severity so that
-    higher values indicate more accessible neighborhoods.
-  </p>
+    <section class="viz-section" aria-labelledby="quantity-profits-title">
+        <div class="container">
 
-  <iframe src="PASTE_TABLEAU_EMBED_LINK_HERE"></iframe>
+            <h2 id="quantity-profits-title">Count of Accessibility Barriers</h2>
 
-  <h2>Key Insights</h2>
-  <ul>
-    <li>Accessibility challenges cluster along specific corridors.</li>
-    <li>Some neighborhoods face consistently higher mobility friction.</li>
-    <li>Temporary barriers can still produce significant accessibility impacts.</li>
-  </ul>
+            <p class="viz-context">
+                This dashboard examines the relationship between quantity sold and total profit
+                across product categories and months. Items that consistently generate negative
+                profit despite high sales volume indicate pricing or sourcing inefficiencies.
+                Seasonal trends help identify when pricing adjustments or inventory reductions
+                may be most effective.
+            </p>
 
-</div>
+            <div class='tableauPlaceholder' id='viz1770535065922' style='position: relative'><noscript><a href='#'><img
+                            alt='Neighborhoods with the Most Accessibility Barriers '
+                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Du&#47;DubsTech-Datathon&#47;BarriersbyNeighborhood&#47;1_rss.png'
+                            style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='DubsTech-Datathon&#47;BarriersbyNeighborhood' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image'
+                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Du&#47;DubsTech-Datathon&#47;BarriersbyNeighborhood&#47;1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                </object></div>
+            <script
+                type='text/javascript'>                    var divElement = document.getElementById('viz1770535065922'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        </div>
+    </section>
 
+    <script src="script.js"></script>
 </body>
+
 </html>
