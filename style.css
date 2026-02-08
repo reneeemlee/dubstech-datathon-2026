@@ -142,7 +142,7 @@ body {
     border: none;
 }
 
-/* ================= PROJECT CONTEXT ================= */
+/* ================= PROPOSED CHANGES ================= */
 
 .proposed-changes {
     background: var(--bg-accent);
@@ -156,6 +156,60 @@ body {
 }
 
 .proposed-changes h2 {
+    font-size: 2.4rem;
+    margin-bottom: 16px;
+}
+
+/* ================= WHY THIS MATTERS ================= */
+
+.why-this-matters {
+    background: #f1ffff;
+    padding: 64px 0;
+}
+
+.why-this-matters p {
+    max-width: 1000px;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.why-this-matters h2 {
+    font-size: 2.4rem;
+    margin-bottom: 16px;
+}
+
+/* ================= KEY FINDINGS ================= */
+
+.key-findings {
+    background: #f1ffff;
+    padding: 64px 0;
+}
+
+.key-findings p {
+    max-width: 1000px;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.key-findings h2 {
+    font-size: 2.4rem;
+    margin-bottom: 16px;
+}
+
+/* ================= TABLEAU SOURCES ================= */
+
+.tableau-sources {
+    background: #ffffff;
+    padding: 64px 0;
+}
+
+.ptableau-sources p {
+    max-width: 1000px;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.tableau-sources h2 {
     font-size: 2.4rem;
     margin-bottom: 16px;
 }

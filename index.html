@@ -43,11 +43,25 @@
     <section class="project-context">
         <div class="container">
             <p>
-                Access to Everyday Life explores how transportation systems, infrastructure,
-                and policy decisions impact people’s ability to participate in daily activities.
-                Using data visualization and spatial analysis, our project highlights where
-                barriers exist and where targeted improvements can expand opportunity and
-                equity across communities.
+                Access to Everyday Life explores how transportation systems, infrastructure, and policy decisions impact
+                people’s ability to participate in daily activities. Using data visualization and spatial analysis, we
+                analyzed data provided by a Harvard dataset that identified accessibility features and problems within
+                neighborhoods in Seattle, WA. Our project highlights where barriers exist and where targeted
+                improvements can expand opportunity and equity across communities.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= WHY THIS MATTERS ================= -->
+    <section class="why-this-matters">
+        <div class="container">
+            <h2 id="title">
+                Why This Matters
+            </h2>
+            <p>
+                Understanding accessibility burden helps city planners and policymakers identify neighborhoods where
+                mobility barriers disproportionately affect residents, informing more equitable infrastructure and
+                transportation decisions.
             </p>
         </div>
     </section>
@@ -56,12 +70,19 @@
     <section class="viz-section" aria-labelledby="barriers-neighborhood-title">
         <div class="container">
 
-            <h2 id="barriers-neighborhood-title">Count of Accessibility Barriers</h2>
+            <h2 id="barriers-neighborhood-title">Accessibility Barriers</h2>
 
             <p class="viz-context">
-                This visualization highlights neighborhoods with the highest number of
-                accessibility barriers, revealing geographic patterns in infrastructure
-                challenges and uneven access to essential services.
+                This dashboard presents a composite Accessibility Burden Index that aggregates multiple barriers into a
+                single, interpretable score. Higher burden values indicate neighborhoods where transportation
+                constraints, infrastructure deficiencies, and limited access to essential services intersect,
+                highlighting areas that may experience compounded accessibility challenges. Average Severity Level is
+                calculated by taking the average of all severity ratings for accessibility barriers within each
+                neighborhood. Each barrier in the dataset is assigned a severity score based on how much it affects safe
+                or independent movement. By averaging these scores at the neighborhood level, we can understand how
+                serious accessibility issues tend to be in each area, rather than just how many barriers are reported.
+                Higher average severity values indicate neighborhoods where barriers are generally more difficult to
+                navigate.
             </p>
 
             <div class="tableauPlaceholder" id="viz-barriers-neighborhood" style="position: relative">
@@ -109,7 +130,13 @@
                 This dashboard measures cumulative accessibility burden by combining multiple
                 barriers into a single index. Higher burden values indicate neighborhoods where
                 transportation limitations, infrastructure gaps, and service access challenges
-                overlap.
+                overlap. Accessibility Burden measures how difficult it is to move through a neighborhood due to
+                sidewalk accessibility barriers. For each neighborhood, we calculate the average impact of reported
+                barriers by combining barrier severity and duration into a single Barrier Impact Score, then averaging
+                these scores across all barriers in that neighborhood. This approach captures the typical level of
+                mobility friction someone might experience when navigating the area, rather than simply counting the
+                number of reported issues. Higher Accessibility Burden values indicate more severe or disruptive
+                accessibility challenges, while lower values indicate more accessible walking conditions.
             </p>
 
             <div class="tableauPlaceholder" id="viz-accessibility-burden" style="position: relative">
@@ -154,9 +181,9 @@
             <h2 id="barrier-types-title">Barrier Types Frequency</h2>
 
             <p class="viz-context">
-                This visualization shows how frequently different types of accessibility
-                barriers occur, helping identify which obstacles most commonly restrict
-                movement and access across neighborhoods.
+                This visualization illustrates the relative frequency of different accessibility barrier types across
+                neighborhoods. By identifying which obstacles occur most often, this view helps prioritize the barriers
+                that most consistently restrict mobility and equitable access.
             </p>
 
             <div class="tableauPlaceholder" id="viz-barrier-types" style="position: relative">
@@ -203,11 +230,10 @@
             </h2>
 
             <p class="viz-context">
-                This visualization compares the prevalence of temporary and permanent
-                accessibility barriers across different areas. Distinguishing between
-                short-term and long-term obstacles helps identify where immediate
-                interventions may be effective versus where sustained infrastructure
-                investment is needed.
+                This comparison examines the distribution of temporary versus permanent accessibility barriers across
+                different areas. Differentiating between short-term disruptions and long-term structural issues provides
+                insight into where rapid interventions may alleviate accessibility concerns versus where sustained
+                infrastructure investment is required.
             </p>
 
             <!-- Tableau Embed -->
@@ -262,7 +288,13 @@
                 capturing how environmental, infrastructural, and systemic factors
                 increase the effort required to move through space. Higher friction
                 values indicate areas where accessibility challenges compound,
-                making everyday travel more difficult.
+                making everyday travel more difficult. Average Mobility Friction Score is calculated by first assigning
+                each accessibility barrier a mobility friction value that reflects how much it slows down or disrupts
+                movement. This score is based on the barrier’s severity and whether it is temporary or permanent, with
+                more severe and longer-lasting barriers contributing more friction. To understand mobility challenges at
+                the neighborhood level, these individual friction scores are averaged across all reported barriers
+                within each neighborhood. Higher average mobility friction scores indicate areas where moving through
+                the neighborhood is more consistently difficult or unsafe.
             </p>
 
             <!-- Tableau Embed -->
@@ -304,11 +336,59 @@
         </div>
     </section>
 
+    <!-- ================= KEY FINDINGS ================= -->
+    <section class="key-findings">
+        <div class="container">
+            <h2 id="title">
+                Key Findings
+            </h2>
+            <p>
+            <ul>
+                <li>
+                    Surface-related issues and physical obstacles are the most frequently reported accessibility
+                    barriers, indicating that basic infrastructure conditions are a primary constraint on mobility.
+                </li>
+                <li>
+                    A significant share of high-frequency barriers are permanent, suggesting that many accessibility
+                    challenges stem from systemic, long-term infrastructure deficiencies rather than temporary
+                    disruptions.
+                </li>
+                <li>
+                    Accessibility barriers are spatially concentrated, clustering in specific neighborhoods and pointing
+                    to inequities in infrastructure quality and service access.
+                </li>
+                <li>
+                    The Industrial District exhibits the highest overall accessibility burden, with barrier levels
+                    nearly double those of any other neighborhood, highlighting it as a critical priority area for
+                    intervention.
+                </li>
+            </ul>
+            </p>
+        </div>
+    </section>
+
     <!-- ================= PROPOSED CHANGES ================= -->
     <section class="proposed-changes">
         <div class="container">
             <h2 id="title">
                 Proposed Changes
+            </h2>
+            <p>
+                Our analysis identifies several actionable opportunities to improve accessibility in Seattle’s built
+                environment. Targeted sidewalk surface maintenance should be prioritized in areas with a high
+                concentration of surface-related issues, while permanent sidewalk obstructions can be reduced through
+                clearer enforcement of width standards and regular audits of fixed fixtures. Finally, accessibility data
+                should be systematically used to guide equity-focused infrastructure investments, ensuring that
+                neighborhoods with the highest barrier density receive priority attention.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= TABLEAU SOURCES ================= -->
+    <section class="tableau-sources">
+        <div class="container">
+            <h2 id="title">
+                Tableau Sources
             </h2>
             <p>
                 [Description]
