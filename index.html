@@ -5,35 +5,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Access to Everyday Life</title>
-
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+
+    <!-- ================= HERO ================= -->
     <header class="hero">
-  <div class="container hero-inner">
-    <p class="eyebrow">Dubstech Datathon 2026</p>
+        <div class="container hero-inner">
+            <p class="eyebrow">Dubstech Datathon 2026</p>
 
-    <h1>
-      Access to<br />
-      <span class="highlight">Everyday Life</span>
-    </h1>
+            <h1>
+                Access to<br />
+                <span class="highlight">Everyday Life</span>
+            </h1>
 
-    <p class="subtitle">
-      How transportation, infrastructure, and policy shape people’s ability
-      to participate in daily activities.
-    </p>
+            <p class="subtitle">
+                How transportation, infrastructure, and policy shape people’s ability
+                to participate in daily activities.
+            </p>
 
-    <div class="path">
-      <span>Celine Chen</span>
-      <span>•</span>
-      <span>Renée Lee</span>
-      <span>•</span>
-      <span>Heidi Ngo</span>
-    </div>
-  </div>
-</header>
+            <div class="path">
+                <span>Celine Chen</span>
+                <span>•</span>
+                <span>Renée Lee</span>
+                <span>•</span>
+                <span>Heidi Ngo</span>
+            </div>
+        </div>
+    </header>
 
+    <!-- ================= PROJECT CONTEXT ================= -->
     <section class="project-context">
         <div class="container">
             <p>
@@ -46,44 +48,202 @@
         </div>
     </section>
 
-    <section class="viz-section" aria-labelledby="quantity-profits-title">
+    <!-- ================= VIZ 1 ================= -->
+    <section class="viz-section" aria-labelledby="barriers-neighborhood-title">
         <div class="container">
 
-            <h2 id="quantity-profits-title">Count of Accessibility Barriers</h2>
+            <h2 id="barriers-neighborhood-title">Count of Accessibility Barriers</h2>
 
             <p class="viz-context">
-                This dashboard examines the relationship between quantity sold and total profit
-                across product categories and months. Items that consistently generate negative
-                profit despite high sales volume indicate pricing or sourcing inefficiencies.
-                Seasonal trends help identify when pricing adjustments or inventory reductions
-                may be most effective.
+                This visualization highlights neighborhoods with the highest number of
+                accessibility barriers, revealing geographic patterns in infrastructure
+                challenges and uneven access to essential services.
             </p>
 
-            <div class='tableauPlaceholder' id='viz1770535065922' style='position: relative'><noscript><a href='#'><img
-                            alt='Neighborhoods with the Most Accessibility Barriers '
-                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Du&#47;DubsTech-Datathon&#47;BarriersbyNeighborhood&#47;1_rss.png'
-                            style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-                    <param name='embed_code_version' value='3' />
-                    <param name='site_root' value='' />
-                    <param name='name' value='DubsTech-Datathon&#47;BarriersbyNeighborhood' />
-                    <param name='tabs' value='no' />
-                    <param name='toolbar' value='yes' />
-                    <param name='static_image'
-                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Du&#47;DubsTech-Datathon&#47;BarriersbyNeighborhood&#47;1.png' />
-                    <param name='animate_transition' value='yes' />
-                    <param name='display_static_image' value='yes' />
-                    <param name='display_spinner' value='yes' />
-                    <param name='display_overlay' value='yes' />
-                    <param name='display_count' value='yes' />
-                    <param name='language' value='en-US' />
-                </object></div>
-            <script
-                type='text/javascript'>                    var divElement = document.getElementById('viz1770535065922'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <div class="tableauPlaceholder" id="viz-barriers-neighborhood" style="position: relative">
+                <noscript>
+                    <a href="#">
+                        <img alt="Neighborhoods with the most accessibility barriers"
+                            src="https://public.tableau.com/static/images/Du/DubsTech-Datathon/BarriersbyNeighborhood/1_rss.png"
+                            style="border: none" />
+                    </a>
+                </noscript>
+
+                <object class="tableauViz" style="display:none;">
+                    <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+                    <param name="embed_code_version" value="3" />
+                    <param name="site_root" value="" />
+                    <param name="name" value="DubsTech-Datathon/BarriersbyNeighborhood" />
+                    <param name="tabs" value="no" />
+                    <param name="toolbar" value="yes" />
+                    <param name="language" value="en-US" />
+                </object>
+            </div>
+
+            <script>
+                (function () {
+                    const c = document.getElementById("viz-barriers-neighborhood");
+                    const v = c.getElementsByTagName("object")[0];
+                    v.style.width = "100%";
+                    v.style.height = c.offsetWidth * 0.95 + "px";
+                    const s = document.createElement("script");
+                    s.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+                    v.parentNode.insertBefore(s, v);
+                })();
+            </script>
+
         </div>
     </section>
 
-    <script src="script.js"></script>
+    <!-- ================= VIZ 2 ================= -->
+    <section class="viz-section" aria-labelledby="accessibility-burden-title">
+        <div class="container">
+
+            <h2 id="accessibility-burden-title">Accessibility Burden by Neighborhood</h2>
+
+            <p class="viz-context">
+                This dashboard measures cumulative accessibility burden by combining multiple
+                barriers into a single index. Higher burden values indicate neighborhoods where
+                transportation limitations, infrastructure gaps, and service access challenges
+                overlap.
+            </p>
+
+            <div class="tableauPlaceholder" id="viz-accessibility-burden" style="position: relative">
+                <noscript>
+                    <a href="#">
+                        <img alt="Accessibility burden by neighborhood"
+                            src="https://public.tableau.com/static/images/Du/DubsTech-Datathon/AccessibilityBurdenbyNeighborhood/1_rss.png"
+                            style="border: none" />
+                    </a>
+                </noscript>
+
+                <object class="tableauViz" style="display:none;">
+                    <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+                    <param name="embed_code_version" value="3" />
+                    <param name="site_root" value="" />
+                    <param name="name" value="DubsTech-Datathon/AccessibilityBurdenbyNeighborhood" />
+                    <param name="tabs" value="no" />
+                    <param name="toolbar" value="yes" />
+                    <param name="language" value="en-US" />
+                </object>
+            </div>
+
+            <script>
+                (function () {
+                    const c = document.getElementById("viz-accessibility-burden");
+                    const v = c.getElementsByTagName("object")[0];
+                    v.style.width = "100%";
+                    v.style.height = c.offsetWidth * 0.95 + "px";
+                    const s = document.createElement("script");
+                    s.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+                    v.parentNode.insertBefore(s, v);
+                })();
+            </script>
+
+        </div>
+    </section>
+
+    <!-- ================= VIZ 3 ================= -->
+    <section class="viz-section" aria-labelledby="barrier-types-title">
+        <div class="container">
+
+            <h2 id="barrier-types-title">Barrier Types Frequency</h2>
+
+            <p class="viz-context">
+                This visualization shows how frequently different types of accessibility
+                barriers occur, helping identify which obstacles most commonly restrict
+                movement and access across neighborhoods.
+            </p>
+
+            <div class="tableauPlaceholder" id="viz-barrier-types" style="position: relative">
+                <noscript>
+                    <a href="#">
+                        <img alt="Frequency of accessibility barrier types"
+                            src="https://public.tableau.com/static/images/Du/DubsTech-Datathon/BarrierTypesFrequency/1_rss.png"
+                            style="border: none" />
+                    </a>
+                </noscript>
+
+                <object class="tableauViz" style="display:none;">
+                    <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+                    <param name="embed_code_version" value="3" />
+                    <param name="site_root" value="" />
+                    <param name="name" value="DubsTech-Datathon/BarrierTypesFrequency" />
+                    <param name="tabs" value="no" />
+                    <param name="toolbar" value="yes" />
+                    <param name="language" value="en-US" />
+                </object>
+            </div>
+
+            <script>
+                (function () {
+                    const c = document.getElementById("viz-barrier-types");
+                    const v = c.getElementsByTagName("object")[0];
+                    v.style.width = "100%";
+                    v.style.height = c.offsetWidth * 0.4 + "px";
+                    const s = document.createElement("script");
+                    s.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+                    v.parentNode.insertBefore(s, v);
+                })();
+            </script>
+
+        </div>
+    </section>
+
+    <section class="viz-section" aria-labelledby="temporary-permanent-title">
+        <div class="container">
+
+            <h2 id="temporary-permanent-title">
+                Temporary vs. Permanent Barriers by Area
+            </h2>
+
+            <p class="viz-context">
+                This visualization compares the prevalence of temporary and permanent
+                accessibility barriers across different areas. Distinguishing between
+                short-term and long-term obstacles helps identify where immediate
+                interventions may be effective versus where sustained infrastructure
+                investment is needed.
+            </p>
+
+            <!-- Tableau Embed -->
+            <div class="tableauPlaceholder" id="viz-temp-perm-barriers" style="position: relative">
+                <noscript>
+                    <a href="#">
+                        <img alt="Temporary versus permanent accessibility barriers by area"
+                            src="https://public.tableau.com/static/images/Du/DubsTech-Datathon/TemporaryvsPermanentBarriersbyArea/1_rss.png"
+                            style="border: none" />
+                    </a>
+                </noscript>
+
+                <object class="tableauViz" style="display:none;">
+                    <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+                    <param name="embed_code_version" value="3" />
+                    <param name="site_root" value="" />
+                    <param name="name" value="DubsTech-Datathon/TemporaryvsPermanentBarriersbyArea" />
+                    <param name="tabs" value="no" />
+                    <param name="toolbar" value="yes" />
+                    <param name="language" value="en-US" />
+                    <param name="filter" value="publish=yes" />
+                </object>
+            </div>
+
+            <script>
+                (function () {
+                    const c = document.getElementById("viz-temp-perm-barriers");
+                    const v = c.getElementsByTagName("object")[0];
+
+                    v.style.width = "100%";
+                    v.style.height = c.offsetWidth * 0.95 + "px";
+
+                    const s = document.createElement("script");
+                    s.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+                    v.parentNode.insertBefore(s, v);
+                })();
+            </script>
+
+        </div>
+    </section>
+
 </body>
 
 </html>
