@@ -26,3 +26,10 @@ How accessible are different neighborhoods, and can we quantify this with an Acc
 
 ## Data Source
 - **Project Sidewalk Seattle Accessibility Dataset** - (https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YOTY6A)
+
+## Opportunities for More Inclusive Urban Design
+Our analysis highlights several opportunities to improve accessibility in Seattle’s built environment:
+
+- **Prioritize sidewalk surface maintenance** in areas with high concentrations of surface problems.
+- **Reduce permanent sidewalk obstructions** by enforcing clear-width standards and auditing fixed fixtures.
+- **Use accessibility data to guide equity-focused infrastructure investment**, particularly in neighborhoods with high barrier density.
