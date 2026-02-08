@@ -1,157 +1,175 @@
 :root {
-  /* Backgrounds */
-  --bg-main: #ffffff;
-  --bg-hero: #0B2430;
-  --bg-accent: #E6F4F5;
+    /* Backgrounds */
+    --bg-main: #ffffff;
+    --bg-hero: #0B2430;
+    --bg-accent: #E6F4F5;
 
-  /* Text */
-  --text-dark: #0B2430;
-  --text-main: #ffffff;
-  --text-muted: #C7E1E3;
+    /* Text */
+    --text-dark: #0B2430;
+    --text-main: #ffffff;
+    --text-muted: #C7E1E3;
 
-  /* Highlights */
-  --highlight: #4FA3B5;
-  --highlight-strong: #2F6F95;
+    /* Highlights */
+    --highlight: #4FA3B5;
+    --highlight-strong: #2F6F95;
 
-  /* Pills / paths */
-  --path-bg: #D9F0EE;
-  --path-text: #0B2430;
+    /* Pills / paths */
+    --path-bg: #D9F0EE;
+    --path-text: #0B2430;
 }
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 body {
-  background: var(--bg-main);
-  color: var(--text-dark);
-  line-height: 1.6;
+    background: var(--bg-main);
+    color: var(--text-dark);
+    line-height: 1.6;
 }
 
 /* ================= LAYOUT ================= */
 
 .container {
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 8vw;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 8vw;
 }
 
 /* ================= HERO ================= */
 
 .hero {
-  min-height: 100vh;
-  background: var(--bg-hero);
-  color: var(--text-main);
+    min-height: 100vh;
+    background: var(--bg-hero);
+    color: var(--text-main);
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .hero .container {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .eyebrow {
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 0.85rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.85rem;
 }
 
 .hero h1 {
-  font-size: clamp(2.8rem, 6vw, 4.5rem);
-  line-height: 1.1;
+    font-size: clamp(2.8rem, 6vw, 4.5rem);
+    line-height: 1.1;
 }
 
 .highlight {
-  color: var(--highlight);
+    color: var(--highlight);
 }
 
 .subtitle {
-  max-width: 600px;
-  margin: 0 auto;
-  font-size: 1.15rem;
-  color: var(--text-muted);
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.15rem;
+    color: var(--text-muted);
 }
 
 .path {
-  display: flex;
-  gap: 12px;
-  margin: 32px auto 0;
+    display: flex;
+    gap: 12px;
+    margin: 32px auto 0;
 
-  font-weight: 600;
-  background: var(--path-bg);
-  color: var(--path-text);
+    font-weight: 600;
+    background: var(--path-bg);
+    color: var(--path-text);
 
-  padding: 12px 22px;
-  border-radius: 999px;
-  width: fit-content;
+    padding: 12px 22px;
+    border-radius: 999px;
+    width: fit-content;
 }
 
 /* ================= PROJECT CONTEXT ================= */
 
 .project-context {
-  background: var(--bg-accent);
-  padding: 64px 0;
+    background: var(--bg-accent);
+    padding: 64px 0;
 }
 
 .project-context p {
-  max-width: 1000px;
-  font-size: 1.05rem;
-  line-height: 1.7;
+    max-width: 1000px;
+    font-size: 1.05rem;
+    line-height: 1.7;
 }
 
 /* ================= VISUALIZATION ================= */
 
 .viz-section {
-  padding: 50px 0;
+    padding: 50px 0;
 }
 
 .viz-section h2 {
-  font-size: 2.4rem;
-  margin-bottom: 16px;
+    font-size: 2.4rem;
+    margin-bottom: 16px;
 }
 
 .viz-context {
-  max-width: 1000px;
-  font-size: 1.05rem;
-  line-height: 1.7;
-  margin-bottom: 40px;
+    max-width: 1000px;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 40px;
 }
 
 /* Responsive Tableau Embed */
 .viz-wrapper {
-  position: relative;
-  width: 100%;
-  padding-bottom: 65%;
-  height: 0;
+    position: relative;
+    width: 100%;
+    padding-bottom: 65%;
+    height: 0;
 }
 
 .viz-wrapper iframe {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* ================= PROJECT CONTEXT ================= */
+
+.proposed-changes {
+    background: var(--bg-accent);
+    padding: 64px 0;
+}
+
+.proposed-changes p {
+    max-width: 1000px;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.proposed-changes h2 {
+    font-size: 2.4rem;
+    margin-bottom: 16px;
 }
 
 /* ================= ACCESSIBILITY ================= */
 
 :focus-visible {
-  outline: 3px solid var(--highlight);
-  outline-offset: 4px;
+    outline: 3px solid var(--highlight);
+    outline-offset: 4px;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  * {
-    animation: none !important;
-    transition: none !important;
-  }
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
 }

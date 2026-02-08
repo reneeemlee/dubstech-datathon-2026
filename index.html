@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Access to Everyday Life</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -190,6 +194,7 @@
         </div>
     </section>
 
+    <!-- ================= VIZ 4 ================= -->
     <section class="viz-section" aria-labelledby="temporary-permanent-title">
         <div class="container">
 
@@ -241,6 +246,73 @@
                 })();
             </script>
 
+        </div>
+    </section>
+
+    <!-- ================= VIZ 5 ================= -->
+    <section class="viz-section" aria-labelledby="mobility-friction-title">
+        <div class="container">
+
+            <h2 id="mobility-friction-title">
+                Mobility Friction by Neighborhood
+            </h2>
+
+            <p class="viz-context">
+                This visualization illustrates mobility friction across neighborhoods,
+                capturing how environmental, infrastructural, and systemic factors
+                increase the effort required to move through space. Higher friction
+                values indicate areas where accessibility challenges compound,
+                making everyday travel more difficult.
+            </p>
+
+            <!-- Tableau Embed -->
+            <div class="tableauPlaceholder" id="viz-mobility-friction" style="position: relative">
+                <noscript>
+                    <a href="#">
+                        <img alt="Mobility friction by neighborhood"
+                            src="https://public.tableau.com/static/images/Du/DubsTech-Datathon/MobilityFrictionbyNeighborhood/1_rss.png"
+                            style="border: none" />
+                    </a>
+                </noscript>
+
+                <object class="tableauViz" style="display:none;">
+                    <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+                    <param name="embed_code_version" value="3" />
+                    <param name="site_root" value="" />
+                    <param name="name" value="DubsTech-Datathon/MobilityFrictionbyNeighborhood" />
+                    <param name="tabs" value="no" />
+                    <param name="toolbar" value="yes" />
+                    <param name="language" value="en-US" />
+                    <param name="filter" value="publish=yes" />
+                </object>
+            </div>
+
+            <script>
+                (function () {
+                    const c = document.getElementById("viz-mobility-friction");
+                    const v = c.getElementsByTagName("object")[0];
+
+                    v.style.width = "100%";
+                    v.style.height = c.offsetWidth * 1.0 + "px";  // maps need height
+
+                    const s = document.createElement("script");
+                    s.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+                    v.parentNode.insertBefore(s, v);
+                })();
+            </script>
+
+        </div>
+    </section>
+
+    <!-- ================= PROPOSED CHANGES ================= -->
+    <section class="proposed-changes">
+        <div class="container">
+            <h2 id="title">
+                Proposed Changes
+            </h2>
+            <p>
+                [Description]
+            </p>
         </div>
     </section>
 
