@@ -4,6 +4,10 @@ Datathon project providing visual analysis of sidewalk accessibility barriers in
 # Access to Everyday Life: Seattle Sidewalk Accessibility
 This project explores accessibility barriers across Seattle using the Project Sidewalk Accessibility Dataset. Our goal is to understand where and how the built environment limits independent mobility, and to highlight opportunities for more inclusive urban design.
 
+## Interactive Dashboard & Portfolio
+View the full interactive analysis and visualizations here:
+🔗 https://reneeemlee.github.io/dubstech-datathon-2026/
+
 ## Team Members
 Renée Lee, Celine Chen, Heidi Ngo
 
