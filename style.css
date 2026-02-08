@@ -214,6 +214,18 @@ body {
     margin-bottom: 16px;
 }
 
+.tableau-sources a {
+  color: var(--highlight);
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.tableau-sources a:hover,
+.tableau-sources a:focus-visible {
+  color: var(--highlight-strong); /* #2F6F95 */
+}
+
+
 /* ================= ACCESSIBILITY ================= */
 
 :focus-visible {
