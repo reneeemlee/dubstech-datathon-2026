@@ -20,7 +20,16 @@ How accessible are different neighborhoods, and can we quantify this with an Acc
 - Accessibility barriers cluster in specific neighborhoods, suggesting spatial inequities.
 
 ## Interactive Visualizations (Tableau Public)
+- **Sidewalk Accessibility Identification Map** - (https://public.tableau.com/app/profile/heidi.ngo/viz/SidewalkAccessibilityIdentificationMap/Dashboard2?publish=yes&showOnboarding=true)
 - **Barrier Frequency by Type** - (https://public.tableau.com/app/profile/renee.lee5770/viz/Datathon-ProjectSidewalkSeattleReneeLeeCelineChenHeidiNgo/CountofBarriersbyType?publish=yes)
+- **[CELINE TITLE TABLEAU]** - (LINK)
 
 ## Data Source
 - **Project Sidewalk Seattle Accessibility Dataset** - (https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YOTY6A)
+
+## Opportunities for More Inclusive Urban Design
+Our analysis highlights several opportunities to improve accessibility in Seattle’s built environment:
+
+- **Prioritize sidewalk surface maintenance** in areas with high concentrations of surface problems.
+- **Reduce permanent sidewalk obstructions** by enforcing clear-width standards and auditing fixed fixtures.
+- **Use accessibility data to guide equity-focused infrastructure investment**, particularly in neighborhoods with high barrier density.
