@@ -15,7 +15,7 @@
 
     /* Pills / paths */
     --path-bg: #D9F0EE;
-    --path-text: #0B2430;
+    --path-text: #303d43;
 }
 
 * {
@@ -37,6 +37,11 @@ body {
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 8vw;
+}
+
+.emphasis-negative {
+  color: #2F6F95; /* or any color you want */
+  font-weight: 600;
 }
 
 /* ================= HERO ================= */
